@@ -59,7 +59,8 @@ awk '{$1=$1};1'
 ```
 
 Remove empty line
-```awk /./
+```
+awk /./
 ```
 
 Remove all character before >
