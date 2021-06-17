@@ -37,6 +37,11 @@ List out all files in folder and subfolder and count
 ls -R | uniq -c > record.txt
 ```
 
+Check specific running process
+```
+ps aux | grep "[process name]"
+```
+
 Check storage
 ```
 df -h --total
