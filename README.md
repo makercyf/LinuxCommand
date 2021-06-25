@@ -42,6 +42,11 @@ Check specific running process
 ps aux | grep "[process name]"
 ```
 
+Check machine resources usage
+```
+ps aux | head -1; ps aux | sort -rnk 4 | head -10
+```
+
 Check storage
 ```
 df -h --total
@@ -125,5 +130,5 @@ Add echo " >> report.html to the end of every line using vim
 ```
 
 `
-Last Update: 2021-06-06 01:06:17
+Last Update: 2021-06-25 14:46:54
 `
