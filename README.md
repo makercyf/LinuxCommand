@@ -17,6 +17,11 @@ Unzip file
 tar -xvf hello.tar
 ```
 
+Find all files containing specific text
+```
+grep -Ril 'text' /home/user
+```
+
 List files in a directory except some specified extensions
 ```
 ls -I "*.txt" -I "*.pdf"
@@ -130,5 +135,5 @@ Add echo " >> report.html to the end of every line using vim
 ```
 
 `
-Last Update: 2021-06-25 14:46:54
+Last Update: 2021-09-03 23:45:25
 `
