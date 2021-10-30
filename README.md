@@ -42,6 +42,16 @@ List out all files in folder and subfolder and count
 ls -R | uniq -c > record.txt
 ```
 
+Netcat file transfer (sender)
+```
+nc -q 0 www.sample.com 60000 < hello.txt
+```
+
+Netcat file transfer (receiver)
+```
+nc -l -p 60000 > hello.txt
+```
+
 Check specific running process
 ```
 ps aux | grep "[process name]"
