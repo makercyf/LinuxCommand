@@ -73,6 +73,11 @@ apt-get purge [package]
 apt-get --purge autoremove [package]
 ```
 
+Replace string
+```
+sed 's/old/new/g' input.txt
+```
+
 Remove dulpicated
 ```
 awk '!seen[$0]++'
@@ -145,5 +150,5 @@ Add echo " >> report.html to the end of every line using vim
 ```
 
 `
-Last Update: 2021-09-03 23:45:25
+Last Update: 2022-11-15 17:41:04
 `
